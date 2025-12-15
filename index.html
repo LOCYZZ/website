@@ -9,12 +9,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
   <!-- CSS -->
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
   <!-- Navbar -->
   <header class="nav">
     <div class="nav-inner glass">
-      <div class="brand">LOCYZZ</div>
+      <div class="brand title-link">LOCYZZ</div>
       <!-- Hamburger -->
       <div class="menu-toggle" id="menu-toggle">
         <div class="bar"></div>
@@ -27,79 +28,7 @@
     <a href="#competences" class="nav-highlight">Compétences</a>
     <a href="#projets">Projets</a>
     <a href="#reseaux" class="nav-highlight">Réseaux</a>
-        <!-- BB-8 Toggle dans le menu mobile -->
-        <div class="mobile-toggle">
-          <label class="bb8-toggle" title="Mode clair / sombre">
-            <input class="bb8-toggle__checkbox" id="themeCheckboxMobile" type="checkbox" />
-            <div class="bb8-toggle__container">
-              <div class="bb8-toggle__scenery">
-                <div class="bb8-toggle__star"></div>
-                <div class="bb8-toggle__star"></div>
-                <div class="bb8-toggle__star"></div>
-                <div class="bb8-toggle__star"></div>
-                <div class="bb8-toggle__star"></div>
-                <div class="bb8-toggle__star"></div>
-                <div class="bb8-toggle__star"></div>
-                <div class="tatto-1"></div>
-                <div class="tatto-2"></div>
-                <div class="gomrassen"></div>
-                <div class="hermes"></div>
-                <div class="chenini"></div>
-                <div class="bb8-toggle__cloud"></div>
-                <div class="bb8-toggle__cloud"></div>
-                <div class="bb8-toggle__cloud"></div>
-              </div>
-              <div class="bb8">
-                <div class="bb8__head-container">
-                  <div class="bb8__antenna"></div>
-                  <div class="bb8__antenna"></div>
-                  <div class="bb8__head"></div>
-                </div>
-                <div class="bb8__body"></div>
-              </div>
-              <div class="artificial__hidden">
-                <div class="bb8__shadow"></div>
-              </div>
-            </div>
-          </label>
-        </div>
       </nav>
-      <!-- BB-8 Toggle (uniquement visible sur mobile) -->
-      <div class="theme-toggle">
-        <label class="bb8-toggle" title="Mode clair / sombre">
-          <input class="bb8-toggle__checkbox" id="themeCheckbox" type="checkbox" />
-          <div class="bb8-toggle__container">
-            <div class="bb8-toggle__scenery">
-              <div class="bb8-toggle__star"></div>
-              <div class="bb8-toggle__star"></div>
-              <div class="bb8-toggle__star"></div>
-              <div class="bb8-toggle__star"></div>
-              <div class="bb8-toggle__star"></div>
-              <div class="bb8-toggle__star"></div>
-              <div class="bb8-toggle__star"></div>
-              <div class="tatto-1"></div>
-              <div class="tatto-2"></div>
-              <div class="gomrassen"></div>
-              <div class="hermes"></div>
-              <div class="chenini"></div>
-              <div class="bb8-toggle__cloud"></div>
-              <div class="bb8-toggle__cloud"></div>
-              <div class="bb8-toggle__cloud"></div>
-            </div>
-            <div class="bb8">
-              <div class="bb8__head-container">
-                <div class="bb8__antenna"></div>
-                <div class="bb8__antenna"></div>
-                <div class="bb8__head"></div>
-              </div>
-              <div class="bb8__body"></div>
-            </div>
-            <div class="artificial__hidden">
-              <div class="bb8__shadow"></div>
-            </div>
-          </div>
-        </label>
-      </div>
     </div>
   </header>
   <!-- HERO -->
@@ -109,7 +38,7 @@
       <div class="hero-card glass">
         <span class="tag">Student · 2025</span>
         <h1 class="hero-title"><span class="shine">Salut, je suis LOCYZZ</span></h1>
-        <h2 class="hero-sub">Étudiant en BUT Informatique</h2>
+        <h2 class="hero-sub">Étudiants en BUT Informatique</h2>
         <p class="hero-text">
           Je conçois des projets mêlant graphisme, web et montage vidéo, avec un style moderne et fluide qui reflète ma créativité.
         </p>
@@ -149,10 +78,8 @@
 </div>
 
 
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+
     
     <!-- COMPÉTENCES -->
 <section id="competences" class="section">
@@ -219,49 +146,36 @@
     </section>
     <!-- RÉSEAUX -->
     <section id="reseaux" class="section">
-      <h2 class="section-title">Mes réseaux</h2>
-      <div class="grid">
-        <a class="card glass" href="https://youtube.com/@LOCYZZ/?sub_confirmation=1" target="_blank">
-          <img src="youtube.png" alt="YouTube" class="card-logo" />
-          <div class="card-body"><h3>YouTube</h3></div>
-        </a>
-        <a class="card glass" href="https://discord.com/invite/ZnHgH266er" target="_blank">
-          <img src="discord.png" alt="Discord" class="card-logo" />
-          <div class="card-body"><h3>Discord</h3></div>
-        </a>
-        <a class="card glass" href="https://www.tiktok.com/@locyzz.yt" target="_blank">
-          <img src="tiktok.png" alt="TikTok" class="card-logo" />
-          <div class="card-body"><h3>TikTok</h3></div>
-        </a>
-        <a class="card glass" href="https://www.instagram.com/locyzz_life" target="_blank">
-          <img src="instagram.png" alt="Instagram" class="card-logo" />
-          <div class="card-body"><h3>Instagram</h3></div>
-        </a>
-      </div>
-    </section>
+  <h2 class="section-title">Mes réseaux</h2>
+  <div class="grid">
+
+    <a class="card glass social youtube" href="https://youtube.com/@LOCYZZ" target="_blank">
+      <i class="fa-brands fa-youtube"></i>
+      <h3>YouTube</h3>
+    </a>
+
+    <a class="card glass social discord" href="https://discord.com/invite/ZnHgH266er" target="_blank">
+      <i class="fa-brands fa-discord"></i>
+      <h3>Discord</h3>
+    </a>
+
+    <a class="card glass social tiktok" href="https://www.tiktok.com/@locyzz.yt" target="_blank">
+      <i class="fa-brands fa-tiktok"></i>
+      <h3>TikTok</h3>
+    </a>
+
+    <a class="card glass social instagram" href="https://www.instagram.com/locyzz_life" target="_blank">
+      <i class="fa-brands fa-instagram"></i>
+      <h3>Instagram</h3>
+    </a>
+
+  </div>
+</section>
   </main>
   <footer class="footer">
     © <span id="year"></span> LOCYZZ — Tous droits réservés.
   </footer>
   <script>
-    // Mode clair/sombre persistant
-    const root = document.documentElement;
-    const checkbox = document.getElementById('themeCheckbox');
-    const checkboxMobile = document.getElementById('themeCheckboxMobile');
-    const saved = localStorage.getItem('theme') || 'dark';
-    root.setAttribute('data-theme', saved);
-    checkbox.checked = saved === 'light';
-    checkboxMobile.checked = saved === 'light';
-
-    function updateTheme(checkbox) {
-      const theme = checkbox.checked ? 'light' : 'dark';
-      root.setAttribute('data-theme', theme);
-      localStorage.setItem('theme', theme);
-    }
-
-    checkbox.addEventListener('change', () => updateTheme(checkbox));
-    checkboxMobile.addEventListener('change', () => updateTheme(checkboxMobile));
-
     // Année footer
     document.getElementById('year').textContent = new Date().getFullYear();
     // Animations au scroll
@@ -282,5 +196,8 @@
       navLinks.classList.toggle('active');
     });
   </script>
+
+  <a id="hidden-link" href="Logbook.html" style="display: none;">Hidden Link</a>
+  <script src="script.js"></script>
 </body>
 </html>
