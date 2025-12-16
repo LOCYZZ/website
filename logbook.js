@@ -82,7 +82,7 @@ const libraryData = [
 {title: "Wonka", type: "Film", year: 2023, rating: 5, comment: "", image: "https://fr.web.img4.acsta.net/pictures/23/12/05/14/56/1249162.jpg", category: "films"},
 {title: "Aquaman", type: "Film", year: 2018, rating: 3, comment: "", image: "https://fr.web.img6.acsta.net/pictures/18/12/13/12/12/2738771.jpg", category: "films"},
 {title: "Les Aventuriers de l'arche perdue", type: "Film", year: 1981, rating: 5, comment: "", image: "https://fr.web.img4.acsta.net/medias/nmedia/00/02/49/18/affiche.jpg", category: "films"},
-{title: "Indiana Jones et le Temple maudit", type: "Film", year: 1984, rating: 5, comment: "", image: "https://fr.web.img6.acsta.net/pictures/24/02/23/09/52/1147009.jpg", category: "films"},
+{title: "Indiana Jones et le Temple maudit", type: "Film", year: 1984, rating: 5, comment: "", image: "https://images.epagine.fr/513/3701432012513_vid.jpg", category: "films"},
 {title: "Indiana Jones et la Dernière Croisade", type: "Film", year: 1989, rating: 5, comment: "", image: "https://fr.web.img6.acsta.net/medias/nmedia/18/65/88/40/18895516.jpg", category: "films"},
 {title: "Indiana Jones et le Royaume du crâne de cristal", type: "Film", year: 2008, rating: 5, comment: "", image: "https://fr.web.img5.acsta.net/medias/nmedia/18/63/95/41/18927494.jpg", category: "films"},
 {title: "Indiana Jones et le Cadran de la destinée", type: "Film", year: 2023, rating: 5, comment: "", image: "https://fr.web.img6.acsta.net/c_310_420/pictures/23/06/07/14/33/5787419.jpg", category: "films"},
@@ -326,4 +326,3 @@ if (typeof libraryData === 'undefined') {
 }
 renderLibrary(libraryData);
 });
-
