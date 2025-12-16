@@ -82,6 +82,7 @@ const libraryData = [
 {title: "Lupin", type: "Série", year: 2021, rating: 5, comment: "Magnifique série avec toujours beaucoup de suspens", image: "https://fr.web.img6.acsta.net/pictures/20/12/02/16/24/1535547.jpg", category: "series"},
 {title: "The Rain", type: "Série", year: 2018, rating: 4, comment: "Très bonne série mais peut-être trop longue je pense", image: "https://fr.web.img5.acsta.net/pictures/18/04/23/16/28/2584964.jpg", category: "series"},
 {title: "Mercredi", type: "Série", year: 2022, rating: 4, comment: "Bonne série avec une bonne histoire", image: "https://fr.web.img4.acsta.net/pictures/22/09/23/15/11/2942764.jpg", category: "series"},
+{title: "Lost : Les Disparus", type: "Série", year: 2004, rating: null, comment: "En cours (Saison 2, Episode 2)", image: "https://m.media-amazon.com/images/M/MV5BZmZhY2ViYzYtMTQ0NS00NDcyLWIxZTYtMGUyODE0NDA0NmNkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", category: "series"},
 
 // JEUX
 {title: "R.E.P.O.", type: "Jeu", year: 2020, rating: 4, comment: "De très bons moments passés entre potes", image: "https://static-cdn.jtvnw.net/ttv-boxart/1294658629_IGDB-272x380.jpg", category: "jeux"},
